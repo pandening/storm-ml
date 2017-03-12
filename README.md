@@ -87,6 +87,15 @@ Hybrid Classifier , a complex demo for this library,you can add Arbitrary Classi
     in the final classifier,the program also do some statistic work,like Right/Error count,you can print the information to watch the 
     process of algorithm running.
     
+    
+ Relevant Knowledge
+----------------------------------
+* Storm [[18]] (#ref18)
+* Trident [[19]] (#ref19)
+* Trident-ml [[20]] (#ref20)
+* Mahout [[21]] (#ref21)
+
+    
 Authors
 ----------------------------
 Jian Hu,NanKai Edu,Tian Jin,China,2013.9 - 2017.6 (compute science and technology)
@@ -129,11 +138,18 @@ Links & References
 
 `[17]`<a name = ref17> </a> Online Passive-Aggressive Algorithms
 
+`[18]`<a name = ref18> </a> <http://storm.apache.org/>
+
+`[19]`<a name = ref19> </a> <https://github.com/apache/storm/tree/master/storm-core/src/jvm/org/apache/storm/trident>
+
+`[20]`<a name = ref20> </a> <https://github.com/pmerienne/trident-ml>
+
+`[21]`<a name = ref21> </a> <http://mahout.apache.org/>
      
  Copyright and license
 ----------------------------------------
 
-Copyright 2013-2015 Pierre Merienne
+Copyright 2013-2017 Pierre Merienne
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
