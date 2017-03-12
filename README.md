@@ -89,7 +89,7 @@ Hybrid Classifier , a complex demo for this library,you can add Arbitrary Classi
     
 Authors
 ----------------------------
-Hujian,NanKai Edu,2013.9 - 2017.6 (compute science and technology)
+Jian Hu,NanKai Edu,Tian Jin,China,2013.9 - 2017.6 (compute science and technology)
 
 Email:<1425124481@qq.com>     
      
