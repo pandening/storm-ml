@@ -72,13 +72,13 @@ Tutorial
 Hybrid Classifier , a complex demo for this library,you can add Arbitrary Classifiers to the factory,the factory will choose some of
     its to classify the instrance,in the actual demo,I use 4 classifiers to test the hybrid classifier,a Committee Classifier,and 3 
     Passive Aggressive Classifier(Pa,Pa-I,PA-II),the data flow will be classified by the Committee Classiffer firstly,the Classification 
-    result will store at an singleton class,you can implement your storage by implement IStore,then the data flow will continue flow to
+    result will store at a singleton class,you can implement your storage by implement IStore,then the data flow will continue flow to
     downstream, the PA Classifier will receive the instance,the PA classifier will first do classify,get the classication result,then
-    get the classification list of this instance by instance id(every instance will be signed a instanceID),then the project will judge,
+    get the classification list of this instance by instance id(each instance will be signed a instanceID),then the project will judge,
     if Committee's classication result equals PA's result,then end of classifying,get the classification result,and remove the instance
-    from storage,then go to the a Trident Function named EndFunction,do some print work,you can do more complexer work in here,and,if 
+    from storage,then go to a Trident Function named EndFunction,do some print work,you can do more complexer work here,and,if 
     Comittee's result != PA's result,the data will continue to next classifier PA-I,do some work like PA classifier,and if necessary,the
-    PA-II classifier will do the same work like PA,PA-I,and in after PA-II classifier,if there is no same classification result in the 
+    PA-II classifier will do the same work like PA,PA-I,and after PA-II classifier,if there is no same classification result in the 
     result list of this instance,the program will vote an classifier's result to you according to a weight vector,this vector will maintain
     by each Classifier,if any Classifier can get the classification result,the weight vector will be updated,the rules to update is:
       -(1) scanning each classifier's classification result,if the Classifier's classification result is the final result,then the 
