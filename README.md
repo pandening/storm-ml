@@ -1,8 +1,7 @@
 # open-streamer
 
-====================================
 ## What is open-streamer ?
----------------------------------------
+
   Open-Streamer is a library base on Storm platform,it is described by Trident api.and it focus on the real-time
   algorithm and online learnning algorithm,this library has implemented some classical algorithms type,like classifier,
   clustering,Regression,Cardinality,and Average Counting.etc,you can build some smart applications with this library
@@ -10,7 +9,7 @@
   help you start to use this library.This library is not so ORIGINAL,you must know the Machine Learnning algorithm
   Library Over Storm : Trident-Ml,open-streamer  extends trident-ml,Thanks Trident-ml's open source spirit.
 
-##Open-Stream Algorithms Overviews:
+## Open-Stream Algorithms Overviews:
 * Average 
      - Moving Average [[1]] (#ref1) 
      - EWMA average[[2]] (#ref2) 
@@ -42,6 +41,7 @@
      - Passive Aggression Regression
      
 Tutorial
+
 ------------------------------
  You should have a spout for your Topology(DAG),you can Reference <https://github.com/pandening/open-streamer/blob/master/src/main/java/com/hujian/trident/ml/examples/data/DoubleSpout.java>
  Then,the data flow from spout will needto be transformed to an Object instance of com.hujian.trident.ml.core.Instance,there is a good and
