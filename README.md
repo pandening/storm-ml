@@ -1,7 +1,7 @@
 # open-streamer
 
 ====================================
-##What is open-streamer ?
+## What is open-streamer ?
 ---------------------------------------
   Open-Streamer is a library base on Storm platform,it is described by Trident api.and it focus on the real-time
   algorithm and online learnning algorithm,this library has implemented some classical algorithms type,like classifier,
