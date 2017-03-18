@@ -47,7 +47,7 @@ st->bolt
 
 分类算法（Classification Algorithms）
 -----------------------------------
-######package:  com.hujian.trident.ml.classifier
+##### package:  com.hujian.trident.ml.classifier
 
 * **Committee Classifier**
     该算法在[论文][1]中被提出，改算法具有多类分类的能力，而且适合部署在流处理平台之上，在论文中，作者提出了该算法，并且证明了该算法在多分类问题上的优良表现特性，并给出了适合工业实现的算法伪代码，你可以在论文的**3.1**部分找到如何分类（Predict）的算法，在**3.3**部分可以找到如何更新分类器模型的算法，作者描述比较清晰，本算法实现基于作者在论文**3.4**节给出的伪代码，根据**3.1-3.4**节的描述，我们就可以实现Committee分类算法，接下来的部分是对该算法的数学描述以及一些证明。
@@ -201,7 +201,7 @@ for( int i = 0 ; i < features.length ; i ++ ){
 
 聚类算法（Clustering Algorithm）
 --------------
-######package: com.hujian.trident.ml.clustering
+###### package: com.hujian.trident.ml.clustering
 
  - **K-means**
 K-means算法是最著名的聚类算法之一，具有简单有效的有点，本算法库也实现了基于Storm的K-means算法，需要注意的一点是，对于Storm平台上的算法来说，是不能假设数据的完整性的，数据是以流式来的，而且源源不断，这也是和以日志形式组织数据的大数据处理平台Hadoop的主要区别。
@@ -227,7 +227,7 @@ K-means算法是最著名的聚类算法之一，具有简单有效的有点，�
 
 求平均算法
 ----------------------
-######package:com.hujian.trident.ml.average
+###### package:com.hujian.trident.ml.average
 
  -  **Moving Average** 
  
@@ -244,7 +244,7 @@ K-means算法是最著名的聚类算法之一，具有简单有效的有点，�
 ```
 基数计数算法
 -----------------------
-######package:com.hujian.trident.ml.cardinality
+###### package:com.hujian.trident.ml.cardinality
 
 所谓基数计数，就是找出数据集中存在多少个不一样的数据，返回这些不一样的数据的大小，在一般的算法中，我们很自然的想到用hash来做，只需要一个数组就可以了，但是这样的代价就是过多的内存使用，这样势必无法适应大数据环境下的基数计数任务，本项目实现的都是基数估计算法，但是估计的误差可以控制，所以都是概率算法，对那些要求精确的场景并不适用。
 
@@ -271,7 +271,7 @@ cardinality = ( -1 ) * m * ln u / m
 
  估计算法
 ------------
-#####package:com.hujian.trident.ml.frequency
+##### package:com.hujian.trident.ml.frequency
 
   - **Count Sketch**
 
@@ -298,7 +298,7 @@ Count Sketch算法相当于运行t次上面的算法，这就是基本的Count S
 
 综合实例
 -------------------------
-######link：https://github.com/pandening/open-streamer/tree/master/src/main/java/com/hujian/trident/hybrid
+###### link：https://github.com/pandening/open-streamer/tree/master/src/main/java/com/hujian/trident/hybrid
 
 该实例致力于提高分类算法的分辨率，以往单一分类算法的表现太过单一，在该实例中，我将使用4个多分类器，来实现一个多个分类器协调合作的分类器，当然，您还可以增加或者减少分类器的数量，所以该实例具有一定的通用性，您可以按照您的项目需求来组装或者卸载分类器。
 该算法的基本思想是，找到大多数，比如我们需要将我们的数据分为三类，那么该实例的运行过程如下：
