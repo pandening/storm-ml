@@ -34,7 +34,7 @@ public class CommitteeClassifier implements Classifier<Integer> {
     public Integer getRightCount() {
         return null;
     }
-
+    
     @Override
     public Integer getErrorCount() {
         return null;
