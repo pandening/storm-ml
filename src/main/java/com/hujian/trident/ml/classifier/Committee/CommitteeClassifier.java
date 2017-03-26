@@ -77,7 +77,7 @@ public class CommitteeClassifier implements Classifier<Integer> {
         }
         for( int i = 0 ; i < length ; i ++ ){
             for( int j = 0 ; j < this.nbClass ; j ++ ){
-                classScores [j] += features[j] * this.weights[i][j];
+                classScores [j] += features[i] * this.weights[i][j];
             }
         }
 
