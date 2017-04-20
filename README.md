@@ -11,33 +11,33 @@
 
 ## Open-Stream Algorithms Overviews:
 * Average 
-     - Moving Average [[1]] (#ref1) 
-     - EWMA average[[2]] (#ref2) 
+     - Moving Average[1]
+     - EWMA average[2] 
 * Cardinality 
-     - LogLog Cardinality[[3]] (#ref3)
-     - HyperLogLog cardinality[[4]] (#ref4)
-     - Adaptive Counting Cardinality[[5]] (#ref5)
+     - LogLog Cardinality[3]
+     - HyperLogLog cardinality[4]
+     - Adaptive Counting Cardinality[5]
      - Linear Counting 
 * Classification
-     - Committee Classifier[[6]] (#ref6)
-     - Passive Aggressive Classifier[[7]] (#ref7)
-     - Perceptron Classifier[[8]] (#ref8)
-     - Winnow Classifier[[9]] (#ref9)
-     - Balanced Winnow Classifier[[10]] (#ref10)
-     - Modify Banalced Winnow Classifier[[11]] (#ref11)
+     - Committee Classifier[6]
+     - Passive Aggressive Classifier[7]
+     - Perceptron Classifier[8]
+     - Winnow Classifier[9]
+     - Balanced Winnow Classifier[10]
+     - Modify Banalced Winnow Classifier[11]
 * Clustering
      - Birch
      - Canopy
      - K-means
 * Frequency Counting
-     - Count Sketch[[12]] (#ref12)
-     - Lossy Counting[[13]] (#ref13)
-     - Stick Sampling Counting[[14]] (#ref14)
-     - Space Saving[[15]] (#ref15)
+     - Count Sketch[12]
+     - Lossy Counting[13]
+     - Stick Sampling Counting[14]
+     - Space Saving[15]
      - Top-k 
 * Regression
-     - Ftrl regression[[16]] (#ref16)
-     - Perceptron Regression[[17]] (#ref17)
+     - Ftrl regression[16]
+     - Perceptron Regression[17]
      - Passive Aggression Regression
      
 Tutorial
