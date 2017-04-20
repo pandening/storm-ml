@@ -10,15 +10,14 @@
   Library Over Storm : Trident-Ml,open-streamer  extends trident-ml,Thanks Trident-ml's open source spirit.
 
 ## Open-Stream Algorithms Overviews:
-
-* Average
-     -Moving Average[1]
-     -EWMA average[2] 
+* Average 
+     - Moving Average[1]
+     - EWMA average[2]
 * Cardinality 
-     -LogLog Cardinality[3]
-     -HyperLogLog cardinality[4]
-     -Adaptive Counting Cardinality[5]
-     -Linear Counting 
+     - LogLog Cardinality[3]
+     - HyperLogLog cardinality[4]
+     - Adaptive Counting Cardinality[5]
+     - Linear Counting 
 * Classification
      - Committee Classifier[6]
      - Passive Aggressive Classifier[7]
