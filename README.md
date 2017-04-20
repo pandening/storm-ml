@@ -10,14 +10,15 @@
   Library Over Storm : Trident-Ml,open-streamer  extends trident-ml,Thanks Trident-ml's open source spirit.
 
 ## Open-Stream Algorithms Overviews:
-* Average 
-     - Moving Average[1]
-     - EWMA average[2] 
+
+* Average
+     -Moving Average[1]
+     -EWMA average[2] 
 * Cardinality 
-     - LogLog Cardinality[3]
-     - HyperLogLog cardinality[4]
-     - Adaptive Counting Cardinality[5]
-     - Linear Counting 
+     -LogLog Cardinality[3]
+     -HyperLogLog cardinality[4]
+     -Adaptive Counting Cardinality[5]
+     -Linear Counting 
 * Classification
      - Committee Classifier[6]
      - Passive Aggressive Classifier[7]
@@ -40,8 +41,8 @@
      - Perceptron Regression[17]
      - Passive Aggression Regression
      
+     
 Tutorial
-
 ------------------------------
  You should have a spout for your Topology(DAG),you can Reference <https://github.com/pandening/open-streamer/blob/master/src/main/java/com/hujian/trident/ml/examples/data/DoubleSpout.java>
  Then,the data flow from spout will needto be transformed to an Object instance of com.hujian.trident.ml.core.Instance,there is a good and
