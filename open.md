@@ -16,7 +16,7 @@ st->bolt
 算法概览
 ---------------------------
 - **分类算法** 
-	 - **Committee Classifier**
+     - **Committee Classifier**
      - **Passive Aggressive Classifier**
      - **Perceptron Classifier**
      - **Winnow Classifier**
