@@ -90,10 +90,10 @@ Hybrid Classifier , a complex demo for this library,you can add Arbitrary Classi
     
  Relevant Knowledge
 ----------------------------------
-* Storm [[18]] (#ref18)
-* Trident [[19]] (#ref19)
-* Trident-ml [[20]] (#ref20)
-* Mahout [[21]] (#ref21)
+* Storm [18
+* Trident [19]
+* Trident-ml [20]
+* Mahout [21]
 
     
 Authors
