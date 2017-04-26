@@ -149,7 +149,7 @@ Links & References
  Copyright and license
 ----------------------------------------
 
-Copyright 2013-2017 Pierre Merienne
+Copyright 2013-2017 Hu Jian
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
