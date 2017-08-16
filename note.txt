@@ -1,9 +1,0 @@
-
-
-
-
-
-
- This is the first time write note from remote os,the os is windows ( 32 bits ),the operator is hujian.
- The project git path is :  https://github.com/pandening/open-streamer.git
-
