@@ -5,7 +5,7 @@
 ZIP_NAME=java-debug-tool.zip
 
 # version
-JAVA_DEBUG_TOOL_VERSION=1.0
+JAVA_DEBUG_TOOL_VERSION=6.0
 
 # the zip url
 DOWNLOAD_URL=https://github.com/pandening/storm-ml/releases/download
@@ -14,7 +14,7 @@ DOWNLOAD_URL=https://github.com/pandening/storm-ml/releases/download
 WORK_DIR=java-debug-tool
 
 function download() {
-    JAVA_DEBUG_TOOL_VERSION=$1
+    #JAVA_DEBUG_TOOL_VERSION=$1
 
     echo "start to download release java-debug-tool.zip:${DOWNLOAD_URL}/${JAVA_DEBUG_TOOL_VERSION}/${ZIP_NAME}"
 
